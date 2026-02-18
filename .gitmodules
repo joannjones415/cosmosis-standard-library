@@ -4,3 +4,6 @@
 [submodule "y6kp-extensions"]
 	path = y6kp-extensions
 	url = https://github.com/des-science/y6kp-extensions.git
+[submodule "project2/planckonly"]
+	path = project2/planckonly
+	url = https://github.com/des-science/planck18-likelihood.git
