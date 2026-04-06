@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Nautilus lock files
+*.shfp*
+
+# Chain outputs (large binary/text files — do not commit)
+chains/**/*.txt
+chains/**/*.hdf5
+chains/**/*.npy
+chains/**/failure_*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+
+# Editor
+*.swp
+.vscode/

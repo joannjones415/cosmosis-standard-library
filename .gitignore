@@ -24,3 +24,33 @@ likelihood/planck2015/plc-2.0/include/
 likelihood/planck2015/plc-2.0/lib/
 likelihood/planck2015/plc-2.0/share/
 shear/cosebis/modules/besselzero04.h
+# =========================
+
+
+# Chains / outputs
+*.txt
+*.hdf5
+*.log
+*.out
+*.err
+*.sbatch
+
+# Plots
+*.png
+*.pdf
+
+# Data
+*.npy
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Cobaya / CosmoSIS outputs
+chains/
+
+# Backup folders
+*-backup/
+
+# Local experiment folders (optional)
+cobaya_packages/
+
